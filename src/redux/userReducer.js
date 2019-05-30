@@ -26,7 +26,7 @@ export function clearUser() {
 function reducer(state = initialState, action) {
     switch (action.type) {
         case UPDATE_USER:
-            console.log(action.payload)
+            console.log('ACTION PAYLOAD', action.payload)
             return state
         default:
             return state
